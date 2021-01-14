@@ -10,6 +10,7 @@ var app = express();
 var PORT = process.env.PORT || 3000;
 app.use(cors());
 
+
 app.use(bodyParser.json());
 
 app.listen(PORT,(err)=> console.log('server started at 3000'));
